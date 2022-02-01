@@ -12,6 +12,12 @@ module.exports = {
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'space-before-function-paren': 0,
+    semi: 0,
+    camelcase: 'off',
+    '@typescript-eslint/camelcase': 0,
+    'no-multi-spaces': 'off',
+    indent: ['error', 2]
   }
 }
